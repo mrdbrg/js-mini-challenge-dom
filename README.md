@@ -26,7 +26,9 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+1- check if the script tag on the html page has the "defer" keyword
+2- select the object by its HTML tag name or in case if there are others with the same name look for an id or class.
+3- to select just the text within the h1 tag use innerText or textContent
 ```
 
 ## Deliverable 2
@@ -35,7 +37,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+1- using the variable with the html object stored in it invoke the .style method and chain .color method to assign the desired color.
 ```
 
 ## Deliverable 3
